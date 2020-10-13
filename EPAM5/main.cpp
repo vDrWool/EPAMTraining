@@ -9,10 +9,6 @@ int main()
 	EPAM::Matrix<int> matrix(5, 5);
 	auto [row, column] = matrix.size();
 
-	std::cout << matrix;
-
-
-
 	std::default_random_engine gen{ 
 		static_cast<unsigned int>(std::chrono::high_resolution_clock::now().time_since_epoch().count()) 
 	};
@@ -24,7 +20,7 @@ int main()
 			matrix[i][j] = dist(gen);
 		}
 	}
-
+	
 	std::cout << matrix;
 
 	EPAM::Task(matrix);
