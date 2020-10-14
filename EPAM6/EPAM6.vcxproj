@@ -24,6 +24,7 @@
     <ProjectGuid>{9affb271-10b4-4f1c-a3aa-5cfb66861e44}</ProjectGuid>
     <RootNamespace>EPAM6</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>EPAM6(Templates)</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
