@@ -45,7 +45,7 @@ int main()
 				return str.find(toFind);
 			}
 		};
-
+		
 		std::cout << task("akjfhhas"s, "fhh"s) << '\n';
 	}
 	// Task 2.1.
