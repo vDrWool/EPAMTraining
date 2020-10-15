@@ -6,7 +6,7 @@
 int main()
 {
 	// Task 1.
-	{
+	{	
 
 	}
 	// Task 2.

@@ -22,7 +22,7 @@ namespace EPAM
 
 		T& max();
 		T& min();
-		T& avarage();
+		T avarage();
 
 		T* begin();
 		T* end();
@@ -108,7 +108,7 @@ namespace EPAM
 	template<typename T>
 	void Vector<T>::print() const noexcept
 	{
-		for (auto i{ 0 }; i < this->m_size; i++)
+		for (auto i{ 0 }; i < static_cast<int>(this->m_size); i++)
 		{
 			std::cout << this->m_vector[i] << ' ';
 		}
@@ -127,11 +127,11 @@ namespace EPAM
 		return *std::min_element(this->m_vector, this->m_vector + this->m_size);
 	}
 	template<typename T>
-	T& Vector<T>::avarage()
+	T Vector<T>::avarage()
 	{
 		int av{};
 
-		for (auto i{ 0 }; i < this->m_size; i++)
+		for (auto i{ 0 }; i < static_cast<int>(this->m_size); i++)
 		{
 			av += this->m_vector[i];
 		}

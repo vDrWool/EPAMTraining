@@ -22,7 +22,7 @@ namespace EPAM
 	{
 		std::string equalsSymbols{};
 
-		unsigned int size{ str1.size() <= str2.size() ? str1.size() : str2.size() };
+		size_t size{ str1.size() <= str2.size() ? str1.size() : str2.size() };
 
 		for (auto i{ 0 }; i < static_cast<int>(size); i++)
 		{
