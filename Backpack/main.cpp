@@ -36,7 +36,7 @@ int main()
 	};
 
 	EPAM::Backpack backpack(10);
-	backpack.fill(objects3);
+	backpack.fill(objects);
 	backpack.output();
 
 	return 0;

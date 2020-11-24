@@ -6,7 +6,7 @@
 
 int main()
 {
-	{
+	/*{
 		try
 		{
 			EPAM::numberAnalise("+7(029)555-35-35");
@@ -20,7 +20,7 @@ int main()
 		{
 			std::cerr << err.what() << '\n';
 		}
-	}
+	}*/
 	{
 		EPAM::Queue<int> a;
 		a.push(11);
