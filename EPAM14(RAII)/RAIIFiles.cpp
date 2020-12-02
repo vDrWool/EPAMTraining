@@ -8,6 +8,12 @@ namespace EPAM
 
 		std::cout << "File opened!\n";
 	}
+
+	std::fstream* RAIIFiles::operator -> ()
+	{
+		return &this->m_file;
+	}
+
 	RAIIFiles::~RAIIFiles()
 	{
 		this->m_file.close();

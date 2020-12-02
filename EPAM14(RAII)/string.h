@@ -8,9 +8,12 @@ namespace EPAM
 	{
 	public:
 		string();
-		string(const char* str);
+		explicit string(const char* str);
 		string(const string& lvalue);
 		string(string&& rvalue) noexcept;
+		
+		string& operator = (const string& lvalue);
+		string& operator = (string&& rvalue) noexcept;
 
 		~string();
 	public:

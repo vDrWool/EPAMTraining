@@ -9,6 +9,8 @@ namespace EPAM
 	public:
 		RAIIFiles(const char* path);
 
+		std::fstream* operator -> ();
+
 		~RAIIFiles();
 	private:
 		std::fstream m_file{};
