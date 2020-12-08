@@ -9,8 +9,8 @@ namespace EPAM
 	//{
 	//	t.begin();      
 	//	t.end();  
-	//    t.size();
-	//    t.clear();
+	//  t.size();
+	//  t.clear();
 	//	t.push_back();
 	//};
 	

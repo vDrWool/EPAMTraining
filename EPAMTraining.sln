@@ -41,6 +41,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EPAMz15(SmartPointers, Allo
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EPAMz16(SOLID)", "EPAMz16(SOLID)\EPAMz16(SOLID).vcxproj", "{C2D4683E-4185-4AD2-9238-0B7293ECFFFD}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "EPAMz16-TEST-", "EPAMz16-TEST-\EPAMz16-TEST-.vcxproj", "{09988B54-7CB6-4A05-9491-7650C138E4E3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -201,6 +203,14 @@ Global
 		{C2D4683E-4185-4AD2-9238-0B7293ECFFFD}.Release|x64.Build.0 = Release|x64
 		{C2D4683E-4185-4AD2-9238-0B7293ECFFFD}.Release|x86.ActiveCfg = Release|Win32
 		{C2D4683E-4185-4AD2-9238-0B7293ECFFFD}.Release|x86.Build.0 = Release|Win32
+		{09988B54-7CB6-4A05-9491-7650C138E4E3}.Debug|x64.ActiveCfg = Debug|x64
+		{09988B54-7CB6-4A05-9491-7650C138E4E3}.Debug|x64.Build.0 = Debug|x64
+		{09988B54-7CB6-4A05-9491-7650C138E4E3}.Debug|x86.ActiveCfg = Debug|Win32
+		{09988B54-7CB6-4A05-9491-7650C138E4E3}.Debug|x86.Build.0 = Debug|Win32
+		{09988B54-7CB6-4A05-9491-7650C138E4E3}.Release|x64.ActiveCfg = Release|x64
+		{09988B54-7CB6-4A05-9491-7650C138E4E3}.Release|x64.Build.0 = Release|x64
+		{09988B54-7CB6-4A05-9491-7650C138E4E3}.Release|x86.ActiveCfg = Release|Win32
+		{09988B54-7CB6-4A05-9491-7650C138E4E3}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
