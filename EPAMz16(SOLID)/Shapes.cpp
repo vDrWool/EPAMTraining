@@ -75,7 +75,7 @@ namespace EPAM
 		if (this->m_radius <= 0)
 			throw std::exception("Radius equal or less than zero!");
 
-		return static_cast<float>(3.1415 * this->m_radius);
+		return static_cast<float>(3.1415 * this->m_radius * this->m_radius);
 	}
 	float Square::square() const
 	{
